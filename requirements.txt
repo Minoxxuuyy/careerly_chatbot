@@ -6,3 +6,4 @@ faiss-cpu==1.8.0
 requests
 python-dotenv
 pycryptodome==3.20.0
+gunicorn==21.2.0
