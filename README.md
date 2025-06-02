@@ -10,7 +10,6 @@ This is a Flask-based AI chatbot that uses Retrieval-Augmented Generation (RAG) 
 - Two-step response:
   1. Retrieve + generate raw answer
   2. Improve final response with high-quality formatting
-- Deployable for free on Render.com
 
 
 ## Architecture Overview
