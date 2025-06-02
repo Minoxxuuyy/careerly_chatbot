@@ -23,15 +23,10 @@ def call_gemini_api(prompt):
 
 def improve_response(initial_answer):
     prompt = f"""
-Please improve the answer below by:
-1. Expanding it with more comprehensive information and relevant details
-2. Including key concepts, examples, or applications where appropriate
-3. Ensuring it remains accurate and directly addresses the question
-4. Organizing the information in a clear, structured manner with multiple paragraphs for different aspects of the topic
-5. Using professional yet accessible language
-6. Aim for a response of 3-5 paragraphs that thoroughly explores the topic
+Please rewrite and improve the answer below. Make it concise, to the point. Retain all essential details and key concepts, 
+organize it clearly in paragraphs and bullet points when needed, and use professional yet accessible language.
 
-Answer:
+Answer to improve:
 {initial_answer}
 """
     return call_gemini_api(prompt)
