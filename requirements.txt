@@ -7,3 +7,4 @@ requests
 python-dotenv
 pycryptodome==3.20.0
 gunicorn==21.2.0
+numpy==1.24.4
